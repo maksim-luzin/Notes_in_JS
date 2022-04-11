@@ -1,7 +1,3 @@
-| Khimichna St., Lviv, UkraineMechnikova St., Kyiv, Ukraine | (+380) 665 04 44 27hello@radency.com | ![](RackMultipart20220411-4-1m5ekvn_html_47eef5c4dd2ec6f7.png)
- |
-| --- | --- | --- |
-
 # Hometask #1 | JavaScript
 
 1. Your task is to create a notes app in JS as a web app. Users can add, edit and remove notes.
@@ -46,5 +42,3 @@ Another skill you should practice is working with **Git and Github**. Implement 
 [https://git-scm.com/docs](https://git-scm.com/docs)
 
 [https://guides.github.com/introduction/flow/](https://guides.github.com/introduction/flow/)
-
-The task should take 1-3 days. If you have any questions, do not hesitate to ask them in the Slack channel #task1
