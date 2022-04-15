@@ -1,0 +1,14 @@
+.cancel-create {
+  cursor: pointer;
+  border-width: 0;
+  color: #7a7a7a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 6px;
+
+  &:hover {
+    text-decoration: none;
+    color: #333;
+  }
+}

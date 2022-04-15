@@ -1,0 +1,9 @@
+.note-name{
+  flex-grow: 1;
+  display: flex;
+
+  input {
+    flex-grow: 1;
+    margin-left: 0.5rem;
+  }
+}

@@ -1,0 +1,11 @@
+.table-with-summaries {
+  height: 6.6534rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+.table-with-summaries::-webkit-scrollbar {
+  width: 0;
+}

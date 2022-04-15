@@ -1,0 +1,17 @@
+.create-action{
+  cursor: pointer;
+  border-width: 0 !important;
+  outline: 0;
+  border-radius: 0 !important;
+  color: #e8eaf5;
+  background-color: #7a7a7a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 6px;
+
+  &:hover {
+    text-decoration: none;
+    color: #e8eaf5;
+  }
+}

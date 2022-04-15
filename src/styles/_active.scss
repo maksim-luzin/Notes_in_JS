@@ -1,0 +1,11 @@
+.active {
+  width: 18.8679%;
+}
+
+.cell-head.active {
+  color: #fff;
+
+  &:hover {
+    color: #ccc;
+  }
+}

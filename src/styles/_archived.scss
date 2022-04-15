@@ -1,0 +1,11 @@
+.archived{
+  width: 15.0943%;
+}
+
+.cell-head.archived {
+  color: #fff;
+
+  &:hover {
+    color: #ccc;
+  }
+}
