@@ -7,7 +7,7 @@ const SeedNotes = [
     id: '1',
     category: Category.Task.name,
     name: 'Shopping list',
-    content: 'I need buy tomatoes, bread, chili, potatoes at 5/6/2022',
+    content: 'I need buy tomatoes, bread, chili, potatoes at 5/12/2022',
     created: new Date(),
     status: Status.Active
   },
@@ -40,6 +40,14 @@ const SeedNotes = [
     category: Category.Task.name,
     name: 'Books',
     content: 'On the navigation bar, click Tasks.Click a task to view it in the Reading Pane, or double- click it to open it in a new window.Another way to see tasks, including flagged to -do items, is the Tasks peek.Point to Tasks on the Navigation Bar.The Tasks peek pops up.',
+    created: new Date(),
+    status: Status.Active
+  },
+  {
+    id: '6',
+    category: Category.Task.name,
+    name: 'Dentist',
+    content: 'I’m gonna have a dentist appointment on the 3/5/2021, I moved it from 5/5/2021” the dates column is “3/5/2021, 5/5/2021',
     created: new Date(),
     status: Status.Active
   }

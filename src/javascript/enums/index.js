@@ -7,6 +7,7 @@ import { SeedNotes } from './seedNotes';
 import { Events } from './events';
 import { NewNote } from './newNote';
 import { FieldNames } from './fieldNames';
+import { GetDatesRegExp } from './datesRegexp';
 
 export {
   Category,
@@ -17,5 +18,6 @@ export {
   SeedNotes,
   Events,
   NewNote,
-  FieldNames
+  FieldNames,
+  GetDatesRegExp
 };
