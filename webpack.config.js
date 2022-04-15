@@ -20,7 +20,7 @@ let response = {
     index: './index.js'
   },
   output: {
-    path: path.resolve(__dirname, '../server/build/public/'),
+    path: path.resolve(__dirname, './build'),
     filename: '[name].js',
     publicPath: '/'
   },
