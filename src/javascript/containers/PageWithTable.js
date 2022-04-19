@@ -2,8 +2,10 @@ import { TableNotes } from './TableNotes';
 import { TableSummaries } from './TableSummaries';
 
 const PageWithTable = () => (`
-  ${TableNotes()}
-  ${TableSummaries()}
+  <div class='main'>
+    ${TableNotes()}
+    ${TableSummaries()}
+  </div>
 `);
 
 export { PageWithTable };
