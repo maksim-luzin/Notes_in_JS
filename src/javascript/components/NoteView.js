@@ -7,7 +7,6 @@ const NoteView = () => {
   const { category, name, content } = getContent();
 
   return (`
- <div class='created-background'>
     <form class='created-task' name='${FieldNames.Note}'>
       <fieldset class='task-option'>
         <label class='select-category'>
@@ -26,7 +25,6 @@ const NoteView = () => {
         <a href='${Route.Archived}' class='cancel-create'>Cancel</a>
       </div>
     </form>
-  </div>
   `);
 };
 
