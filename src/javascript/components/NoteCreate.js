@@ -6,7 +6,6 @@ const NoteCreate = () => {
   const { category, name, content } = getContent();
 
   return (`
-  <div class='created-background'>
     <form class='created-task' name='${FieldNames.Note}'>
       <fieldset class='task-option'>
         <label class='select-category'>
@@ -28,7 +27,6 @@ const NoteCreate = () => {
         </button>
       </div>
     </form>
-  </div>
   `);
 };
 
