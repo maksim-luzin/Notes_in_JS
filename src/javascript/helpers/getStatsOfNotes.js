@@ -3,6 +3,11 @@ import { getArrayCategoryNames } from './getArrayCategoryNames';
 import { Status } from '../enums/status';
 
 const getStatsOfNotes = () => {
+  const categoryStatsUndefined = {
+    [Status.Active]: 0,
+    [Status.Archived]: 0
+  };
+
   const stats = getNotes()
     .reduce((stats, { category, status }) => {
       const otherStatus =
@@ -27,7 +32,11 @@ const getStatsOfNotes = () => {
 
   const categories = getArrayCategoryNames();
 
-  return categories.map(category => ({ ...stats[category], category }));
+  return categories.map(category => ({
+    ...categoryStatsUndefined,
+    ...stats[category],
+    category
+  }));
 };
 
 export { getStatsOfNotes };
