@@ -3,8 +3,7 @@ import { router } from './router';
 import { actionsListener } from './actionsListener';
 import { saveNote } from './saveNote';
 import { createNote } from './createNote';
-import { archiveNote } from './archiveNote';
-import { unzipNote } from './unzipNote';
+import { archiveUnzipNote } from './archiveUnzipNote';
 import { deleteNote } from './deleteNote';
 
 export {
@@ -13,7 +12,6 @@ export {
   actionsListener,
   saveNote,
   createNote,
-  archiveNote,
-  unzipNote,
+  archiveUnzipNote,
   deleteNote
 };

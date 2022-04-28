@@ -1,11 +1,5 @@
 .table-with-notes {
   max-height: 17.6835rem;
   overflow-x: hidden;
-  overflow-y: auto;
-  -ms-overflow-style: none;
-  overflow: -moz-scrollbars-none;
-}
-
-.table-with-notes::-webkit-scrollbar {
-  width: 0;
+  overflow-y: scroll;
 }
