@@ -1,8 +1,7 @@
-/* eslint-disable no-console */
 import { render } from './render';
 import { Route } from '../enums';
-import { PageWithTable } from '../containers';
-import { NoteCreate, ConfirmDelete, NoteView } from '../components';
+import { PageWithTables } from '../containers';
+import { ConfirmDelete, Note } from '../components';
 import { getRoute, setRoute } from '../helpers';
 import { archiveNote } from './archiveNote';
 import { unzipNote } from './unzipNote';
@@ -13,15 +12,13 @@ const router = async () => {
   switch (path[0]) {
     case Route.Active:
     case Route.Archived:
-      render(PageWithTable);
+      render(PageWithTables);
       break;
 
     case Route.NewNote:
-      render(NoteCreate);
-      break;
-
     case Route.EditNote:
-      render(NoteCreate);
+    case Route.ViewNote:
+      render(Note);
       break;
 
     case Route.ArchiveNote:
@@ -34,10 +31,6 @@ const router = async () => {
 
     case Route.ConfirmDelete:
       render(ConfirmDelete);
-      break;
-
-    case Route.ViewNote:
-      render(NoteView);
       break;
 
     default:
