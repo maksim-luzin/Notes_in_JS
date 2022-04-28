@@ -3,8 +3,7 @@ import { Route } from '../enums';
 import { PageWithTables } from '../containers';
 import { ConfirmDelete, Note } from '../components';
 import { getRoute, setRoute } from '../helpers';
-import { archiveNote } from './archiveNote';
-import { unzipNote } from './unzipNote';
+import { archiveUnzipNote } from './archiveUnzipNote';
 
 const router = async () => {
   const path = getRoute();
@@ -22,11 +21,8 @@ const router = async () => {
       break;
 
     case Route.ArchiveNote:
-      archiveNote();
-      break;
-
     case Route.UnzipNote:
-      unzipNote();
+      archiveUnzipNote();
       break;
 
     case Route.ConfirmDelete:
