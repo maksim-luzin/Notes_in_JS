@@ -9,6 +9,7 @@ import { getIcon } from './getIcon';
 import { getContent } from './getContent';
 import { getDataForm } from './getDataForm';
 import { getRoute } from './getRoute';
+import { getStatsOfNotes } from './getStatsOfNotes';
 
 export {
   getContentForView,
@@ -21,5 +22,6 @@ export {
   getIcon,
   getContent,
   getDataForm,
-  getRoute
+  getRoute,
+  getStatsOfNotes
 };

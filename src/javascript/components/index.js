@@ -1,21 +1,19 @@
-import { ActiveNote } from './ActiveNote';
-import { ArchiveNote } from './ArchiveNote';
 import { CategorySummary } from './CategorySummary';
 import { ConfirmDelete } from './ConfirmDelete';
 import { HeadNotes } from './HeadNotes';
 import { HeadSummary } from './HeadSummary';
-import { NoteView } from './NoteView';
-import { NoteCreate } from './NoteCreate';
 import { CategoryOptions } from './CategoryOptions';
+import { CreateNote } from './CreateNote';
+import { NoteInfo } from './NoteInfo';
+import { Note } from './Note';
 
 export {
-  ActiveNote,
-  ArchiveNote,
   CategorySummary,
   ConfirmDelete,
   HeadNotes,
   HeadSummary,
-  NoteView,
-  NoteCreate,
-  CategoryOptions
+  CategoryOptions,
+  CreateNote,
+  NoteInfo,
+  Note
 };

@@ -1,7 +1,10 @@
-import { getSummaryNotesInCategory, getIcon } from '../helpers';
-import { Status } from '../enums';
+import { getIcon } from '../helpers';
 
-const CategorySummary = category => `
+const CategorySummary = ({
+  category,
+  active,
+  archived
+}) => `
     <div class='row row-note'>
       <div class='icon'>
         <div class='icon-background'>
@@ -10,10 +13,10 @@ const CategorySummary = category => `
       </div>
       <div class='note-category'>${category}</div>
       <div class='active'>
-        ${getSummaryNotesInCategory(category, Status.Active)}
+        ${active}
       </div>
       <div class='archived'>
-        ${getSummaryNotesInCategory(category, Status.Archive)}
+        ${archived}
       </div>
     </div>
   `;

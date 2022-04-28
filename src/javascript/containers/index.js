@@ -1,15 +1,7 @@
-import { TableNotes } from './TableNotes';
-import { TableSummaries } from './TableSummaries';
-import { TableWithSummaries } from './TableWithSummaries';
-import { ActiveArchiveNotes } from './ActiveArchiveNotes';
-import { Notes } from './Notes';
-import { PageWithTable } from './PageWithTable';
+import { PageWithTables } from './PageWithTables';
+import { Table } from './Table';
 
 export {
-  TableNotes,
-  TableSummaries,
-  TableWithSummaries,
-  ActiveArchiveNotes,
-  Notes,
-  PageWithTable
+  PageWithTables,
+  Table
 };
